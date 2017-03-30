@@ -5,8 +5,8 @@
 
 
 # in case you didn't open julia from this directory, we need to move you here first:
-home = ENV["HOME"]
-cd("$home/Dropbox/teaching/ScPo/ScPo-CompEcon/HW-unconstrained")	# you need to change this path.
+#home = ENV["HOME"]
+cd("C:/Users/lucil/OneDrive/Documents/GitHub/HW-unconstrained")	# you need to change this path.
 
 
 # include your code and test it:
@@ -19,5 +19,5 @@ include("test/runtests.jl")
 # after doing include("src/maxlike.jl"),
 # your module is visible, along with all objects that you decided to export. e.g. you could do
 using HW_unconstrained
-data = makeData()	
+HW_unconstrained.runAll()
 # to manually examine this function
